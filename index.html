@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h1>Inicio Aplicación</h1>
+                <img src="inicio.png" class="img-fluid mb-5">
+            </div>
+            <div class="col-6 d-flex align-items-end">
+                <p>Para el inicio del css únicamente se ha posicionado los elementos y se ha hecho
+                    cambios de tamaño, color y alguna modificación de los bordes y efectos visuales para hacer la aplicación
+                    vistosa cara al usuario y hacerla amigable y fácil de usar.
+                </p>
+            </div>
+            <div class="col-12 mb-5">
+                <h1>Secciones Aplicación</h1>
+            </div>
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-image">
+                            <img src="header.png" class="img-fluid"/>
+                        </div>
+                        <div class="card-title">
+                            <p>Header Aplicación</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Esta seccion corresponde al header, en la cuál aparece el bóton para agregar las tareas
+                            y el logo con el texto de pomodoro.</p>
+
+                            <img src="tareas.png" class="img-fluid" /> 
+                            <p>Cuándo le pulsas al icono de tareas, se abre un desplegable que te permite agregar tareas y a través del icono de la papelera te permite borrar las tareas. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Cronometro / Main-->
+            <div class="col-12 mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-image">
+                            <img src="contador-main.png" class="img-fluid" />
+                        </div>
+                        <div class="card-title">
+                            <p>Cronómetro / Main</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Esta seccion corresponde al contador de la aplicación la cuál se adapta al método
+                            Pomodoro, establecido automáticamente con los tiempos predeterminados y además te permite personalizarte el
+                            tiempo.</p>
+
+                            <p>Se puede personalizar el contador para poner el tiempo que se desee, por defecto estan los valores de:
+                                25m -> Concentración.
+                                15m -> Descanso Largo.
+                                5m -> Descanso Corto.
+                            A parte de esto se puede modificar el valor con los iconos de + y - que aparecen en el contador y una vez pulsado el start empezará la cuenta atrás. En caso de que lo queramos reiniciar, se podrá hacer pero necesitamos previamente parar 
+                            el cronómetro y una vez dado al botón de reiniciar, volverá al valor con el que lo iniciaste.
+                            </p>
+                            <img src="reinciar.png" class="img-fluid" width="320px" />
+                            <p>Como se ve en la imagen, he agregado un badge con el que se puede contemplar cuantas fases de concentración se han realizado, en cada fase redirige a la opción de descanso corto, y cuando llega a la cuarta lo actualiza al descanso largo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!--Alarma / Main-->
+            <div class="col-12 mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-image">
+                            <img src="alarma.png" class="img-fluid" />
+                        </div>
+                        <div class="card-title">
+                            <p>Alarma / Main</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Es una pequeña modificación que agrega una alarma al cronómetro cuando este termina su tiempo.</p>
+                            <p>El cambio que he comentado en el apartado anterior, se realiza al detener la alarma, pero es vital que se cumpla un rango de tiempo, si no la fase no se va a cumplir.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!--Navegación / Main-->
+            <div class="col-12 mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-image">
+                            <img src="navegacion.png" class="img-fluid" />
+                        </div>
+                        <div class="card-title">
+                            <p>Navegación / Main</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Esta sección corresponde a la navegación del Pomodoro y cada enlace permite de manera automática acceder a los
+                            tiempos
+                            predeterminados del Pomodoro. Gracias a esta opción los usuarios pueden personalizar sus tiempos del cronómetro,
+                        y si quieren volver a los valores predeterminados del Pomodoro cambian a la opción y se les actualiza directamente.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!--Otra Información-->
+            <div class="col-12 mt-5">
+                <h1>Otra Información</h1>
+                <p>IAs Utlizadas:<strong> Gemini</strong>, unicamente de apoyo para correcciones de la parte de programación
+                    y resolución
+                    de errores, además para tareas complejas me ayudó y me aporto ideas</p>
+            </div>
+        </div>
+    </div>
+<script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+    crossorigin="anonymous"></script>
+</body>
+</html>
